@@ -4,7 +4,8 @@
   <preferences>
 
     <!-- #types are regular, ordered-sequential, ordered-diverging -->
-    <!-- see r function xml_colors() for producing new XML code based on palettes -->
+    <!-- see r function xml_colors()  https://raw.githubusercontent.com/tessam30/TableauTraining/master/R/tableau_colors.r -->
+    <!-- for producing new XML code based on palettes -->
     <!-- code found at ...  -->
       <color-palette name="BrownBlue" type="ordered-diverging">
         <color>#A16928</color>
