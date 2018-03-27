@@ -4,8 +4,8 @@
   <preferences>
 
     <!-- #types are regular, ordered-sequential, ordered-diverging -->
-    <!-- see r function xml_colors()  https://raw.githubusercontent.com/tessam30/TableauTraining/master/R/tableau_colors.r -->
-    <!-- for producing new XML code based on palettes -->
+    <!-- see r function xml_colors() for producing new XML code based on palettes -->
+    <!-- used https://html-color-codes.info/colors-from-image/# to pick colors from images -->
     <!-- code found at ...  -->
       <color-palette name="BrownBlue" type="ordered-diverging">
         <color>#A16928</color>
@@ -202,6 +202,16 @@
         <color>#3288BD</color>
         <color>#5E4FA2</color>
       </color-palette>
+      
+      <color-palette name="PurpleSnow" type="ordered-sequential">
+        <color>#ffffff</color>
+        <color>#E7F0EF</color>
+        <color>#B595BC</color>
+        <color>#7D388B</color>
+        <color>#CF1E6C</color>
+        <color>#D97833</color>
+        <color>#F3852E</color>
+      </color-palette>
 
       <color-palette name="Lipstick1" type="ordered-sequential">
         <color>#ffc6c4</color>
@@ -292,6 +302,7 @@
         <color>#813753</color>
         <color>#541f3f</color>
       </color-palette>
+
 
       <color-palette name="Reds1" type="ordered-sequential">
         <color>#ecda9a</color>
