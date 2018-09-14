@@ -3,7 +3,31 @@
 # Author: Tim Essam, GeoCenter
 # Notes: Materials prepared for Tableau training 
 
+#FROM : https://github.com/dKvale/tableau
+# http://dkvale.github.io/tableau/
 # Creaate color palettes for tableau 
+##-- Create a Tableau palette function
+##-- Reference: http://kb.tableau.com/articles/knowledgebase/creating-custom-color-palettes
+
+tableau_palette <- function(color_list = c("#FBFBFB", "#DFDFDF"), 
+                            name = "New Palette") {
+  
+out <- paste0(c("<workbook> \n\t <preferences>
+                <color-palette name=\"", name, "\" type=\"regular\"> \n",
+                paste("\t\t\t <color>", color_list, "</color> \n"),
+                "\t\t </color-palette> \n\t </preferences> \n </workbook>"), 
+              collapse="")
+
+cat(out)
+}
+
+tableau_palette(mpca, "MPCA Logo")
+
+tableau_palette(force_awakens, "Force Awakens")
+
+tableau_palette(wes_palettes[["FantasticFox"]], "Fox")
+#**************************************************************************************
+
 
 
 # Load required libraries -------------------------------------------------
