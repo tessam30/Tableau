@@ -11,6 +11,6 @@ Use parameters to allow users to build pivot tables. (Tad Buhman presentation wi
 [Visual Vocab](https://public.tableau.com/en-us/s/gallery/visual-vocabulary?gallery=votd)  
 
 #### Small Multiples
-[Small Multiples](https://www.ryansleeper.com/how-to-make-trellis-tile-small-multiple-maps-in-tableau/)
+[Small Multiples](https://www.ryansleeper.com/how-to-make-trellis-tile-small-multiple-maps-in-tableau/)  
 [Tile maps](https://www.tableau.com/about/blog/2016/5/how-create-small-multiple-tile-map-54303)
 
